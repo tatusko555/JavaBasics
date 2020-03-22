@@ -20,7 +20,6 @@ public class InterviewQuestion {
 	         System.out.println(str+" is not a palindrome");
 	      }
 		
-		
 	}
 
 }
