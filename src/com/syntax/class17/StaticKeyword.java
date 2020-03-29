@@ -11,11 +11,12 @@ public class StaticKeyword {
 	static boolean touchScreen;
 	
 	//return type, name, parameters
-	static void displayGeneralInfo() {
+	static void displayGeneralInfo() {//STATIC METHOD CANNOT ACCESS NON-STATIC MEMBERS OF THE CLASS
 		System.out.println("We are building "+brand+" with touch screen = "+touchScreen);
 	}
+	//instance members of the class can access ALL STATIC members
 	void displaySpecifications() {
-		System.out.println("We build phone with "+memory+"GB memory in "+color+" color");
+		System.out.println("We build "+brand+" with "+memory+"GB memory in "+color+" color");
 	}
 	public static void main(String[] args) {
 		//accessing static variables in a static way
