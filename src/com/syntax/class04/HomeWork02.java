@@ -6,7 +6,7 @@ public class HomeWork02 {
 
 	public static void main(String[] args) {
 
-		//Task-2:
+		//Degree-2:
 				/* Write a program to ask user to enter numbers of worked years and annual salary. 
 				 * If user worked for more or equals to 5 years than user is eligible for the bonus, 
 				 * otherwise he is not. 

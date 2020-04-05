@@ -26,7 +26,7 @@ class userInfo extends userClass{
 		this.address = address;
 	}
 	public void userDetails() {
-		System.out.println("My name is "+name+" and my phone number is "+mobileNumber+" . i live at: "+address);
+		System.out.println("My name is "+name+" and my phone number is "+mobileNumber+" . i live in: "+address);
 	}
 	
 }
