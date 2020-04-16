@@ -21,7 +21,7 @@ public class Registration {
 		return userName;
 	}
 	public void setUserName(String userName) {
-		if(!userName.isEmpty() && userName.length()>6) {
+		if(!userName.isEmpty() && userName.length()>3) {
 		
 		this.userName = userName;
 		}
