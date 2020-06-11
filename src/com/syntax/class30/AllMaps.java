@@ -26,7 +26,6 @@ public class AllMaps {
 		household.put("toilet paper", 10);
 		household.put("face mask", 50);
 		System.out.println(household);
-		
 		//create a map in which we store all previous items in ascending order
 		Map<String, Integer> shopping =new TreeMap<>(grocery);
 		shopping.putAll(household);
